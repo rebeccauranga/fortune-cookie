@@ -1,0 +1,29 @@
+body, html {
+    height: 100%;
+    background-image: url(assets/mountain-pic.jpeg);
+}
+  
+.background { 
+    /* The image used */
+    background-image: url("assets/mountain-pic.jpeg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.output h1 {
+    font-family: 'Qwigley', cursive;
+    font-size: 64px;
+    color: white;
+}
+
+.output {
+    display: flex;
+    justify-content: center;
+}
+
