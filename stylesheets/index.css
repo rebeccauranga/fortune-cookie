@@ -1,19 +1,15 @@
 body, html {
     height: 100%;
-    background-image: url(assets/mountain-pic.jpeg);
+    /* background-image: url(assets/mountain-pic.jpeg); */
 }
   
 .background { 
-    /* The image used */
-    background-image: url("assets/mountain-pic.jpeg");
-  
-    /* Full height */
+    /* background-color: lightcoral; */
     height: 100%; 
-  
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url(../assets/mountain-pic.jpeg);
 }
 
 .output h1 {
@@ -25,5 +21,14 @@ body, html {
 .output {
     display: flex;
     justify-content: center;
+}
+
+.input button {
+    width: 175px;
+    height: 75px;
+    font-size: 50px;
+    margin-left: 45%;
+    font-family: 'Qwigley', cursive;
+    border: none;
 }
 
