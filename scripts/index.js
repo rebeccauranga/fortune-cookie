@@ -10,7 +10,6 @@ function getFortune() {
       const { fortune } = json;
       const randomFortuneElement = document.querySelector(".output h1");
       randomFortuneElement.textContent = fortune;
-      buttonElement.textContent = originalButtonText;
     });
 }
 

@@ -1,34 +1,37 @@
-body, html {
+html {
     height: 100%;
-    /* background-image: url(assets/mountain-pic.jpeg); */
-}
-  
-.background { 
-    /* background-color: lightcoral; */
-    height: 100%; 
+    background-image: url(../assets/mountain-pic.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(../assets/mountain-pic.jpeg);
 }
 
 .output h1 {
     font-family: 'Qwigley', cursive;
-    font-size: 64px;
+    font-size: 54px;
     color: white;
+    letter-spacing: 2px;
 }
 
 .output {
+    text-align: center;
+    height: 250px;
+    margin-top: 80px;
+}
+
+.input {
     display: flex;
     justify-content: center;
 }
 
 .input button {
-    width: 175px;
+    width: 200px;
     height: 75px;
-    font-size: 50px;
-    margin-left: 45%;
+    font-size: 46px;
     font-family: 'Qwigley', cursive;
-    border: none;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
